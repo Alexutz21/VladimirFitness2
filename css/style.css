@@ -170,8 +170,26 @@ header[role="title-page"] h2,header[role="title-page"] h2{ color:#000; font-size
 .four-box-pan section p{ line-height:27px; font-weight:500; padding-top:5px; color:#5e5e64}
 
 /*== Section Two ==*/
-.section-two{ background-color:#f7f7f8; margin-top:80px; overflow:hidden}
-.section-two section figure{background-position:50% 0; background-size:cover; background-repeat:no-repeat; background-attachment:fixed; min-height:593px}
+.section-two{ 
+	background-color:#f7f7f8; 
+	margin-top:80px; 
+	overflow:hidden
+}
+.section-two section figure{
+	background-position:50% 0; 
+	background-size:cover; 
+	background-repeat:no-repeat; 
+	background-attachment:fixed; 
+	height:593px 
+}
+/* .figure {
+	color: #185005;
+	background-position:50% 0; 
+	background-size:cover; 
+	background-repeat:no-repeat; 
+	background-attachment:fixed; 
+	min-height:593px 
+} */
 .section-two section:hover img{-webkit-transform:scale(1.3);transform:scale(1.3);}
 .section-two section article{ padding-left:14%; padding-right:90px; padding-top:94px;}
 .section-two section:last-child article{ padding-left:11%}
