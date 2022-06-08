@@ -1,0 +1,35 @@
+ <section class="section-five" id="contact">
+        <div class="container">
+          <header role="title-page" class="text-center">
+            <h4>Newsletter Subscribe</h4>
+
+            <h2>
+              Subscribe to get monthly products updates<br />and exclusive
+              offers
+            </h2>
+          </header>
+          <div class="subscribe-form">
+            <div class="ntify_form">
+              <form
+                method="post"
+                action="php/subscribe.php"
+                name="subscribeform"
+                id="subscribeform"
+              >
+                <input
+                  name="email"
+                  type="email"
+                  id="subemail"
+                  placeholder="Email Address"
+                />
+                <button type="submit" name="" value="Submit">
+                  Subscribe <i class="fa fa-envelope" aria-hidden="true"></i>
+                </button>
+              </form>
+              <div id="mesaj"></div>  
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
